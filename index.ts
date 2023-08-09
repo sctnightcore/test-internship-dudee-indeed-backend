@@ -25,7 +25,7 @@ app.get<{
 }, (req, res) => {
     const { n } = req.params
 
-    let sum: number = 0
+    let sum: number = 1
     let sequence: number[] = [0, 1]
 
     for (let i = 2; i < n; i++) {
